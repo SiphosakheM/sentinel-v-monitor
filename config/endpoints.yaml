@@ -1,0 +1,8 @@
+endpoint:
+  - name : google
+  - url : https://www.google.com
+  - timeout_in_seconds : 5
+
+  - name: bad_example
+  - url: https://httpstat.us/500
+  - timeout_seconds: 3
