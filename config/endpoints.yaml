@@ -1,8 +1,12 @@
-endpoint:
-  - name : google
-  - url : https://www.google.com
-  - timeout_in_seconds : 5
 
-  - name: bad_example
-  - url: https://httpstat.us/500
-  - timeout_seconds: 3
+interval_seconds: 15
+
+endpoints:
+  - name: "Main API"
+    url: "https://api.example.com/health"
+    timeout_seconds: 5
+  - name: "WebApp"
+    url: "https://example.com"
+    timeout_seconds: 10
+  - name: "Auth Service"
+    url: "https://auth.example.com/v1/status"
