@@ -25,7 +25,7 @@ Prerequisites
 
 Installation and Setup
 
-- Clone the repository: git clone https://github.com/your-username/sentinel-v-monitor.git
+- Clone the repository: git clone [https://github.com/your-username/sentinel-v-monitor.git](https://github.com/SiphosakheM/sentinel-v-monitor)
 - Set up the environment: python -m venv venv; source venv/bin/activate # Or venv\Scripts\activate on Windows
 - Install dependencies: pip install -r requirements.txt
 
